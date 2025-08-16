@@ -670,6 +670,10 @@ ul h4{
 /* MEDIA QUERIES */
 
 @media screen and (max-width:780px){
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
     .nav-list,
     .desktop-action .btn{
         display: none;
@@ -779,6 +783,7 @@ ul h4{
 .flex.wrapper ul{
     margin-top: 3rem;
 }
+
 
 
 }
