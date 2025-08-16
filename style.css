@@ -668,6 +668,16 @@ ul h4{
 
 
 /* MEDIA QUERIES */
+@media screen and (max-width:415px){
+    .img-container img{
+        width: 200px;
+        padding-right: 1rem;
+
+        
+    }
+}
+
+
 
 @media screen and (max-width:780px){
 html, body {
@@ -787,3 +797,4 @@ html, body {
 
 
 }
+
