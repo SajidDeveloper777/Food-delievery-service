@@ -673,6 +673,12 @@ ul h4{
 
     }
 
+     .social-icon-gap{
+        gap: .5rem;
+        margin-top: 2rem;
+    }
+
+
     
 }
 
@@ -796,5 +802,6 @@ html, body {
 
 
 }
+
 
 
