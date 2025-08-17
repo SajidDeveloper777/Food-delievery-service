@@ -134,13 +134,14 @@ li{
 
 /* HERO-SECTION */
 
-.img-container img{
-    
-    width: 500px;
+.img-container img {
+
+    max-width: 100%;
+    height: auto;
     display: block;
+    margin: 0 auto;
     
-    
-}
+} 
 
 .hero-section{
     min-height: calc(100vh - 14vh);
@@ -418,14 +419,12 @@ p{
     }
 
 
-.section-3-image img{
-    width: 400px;
-    /* height: 300px; */
+.section-3-image img { 
+    max-width:500px;
     display: block;
-    /* aspect-ratio: 1; */
-    /* padding-left: 13rem; */
-   
-} 
+    
+   }    
+
 
 .flex-sec-3{
     justify-content: center;
@@ -668,13 +667,13 @@ ul h4{
 
 
 /* MEDIA QUERIES */
-@media screen and (max-width:415px){
-    .img-container img{
-        width: 200px;
-        padding-right: 1rem;
+@media screen and (max-width:780px) {
+    .section-3-image img{
+        padding-inline:5rem ;
 
-        
     }
+
+    
 }
 
 
@@ -797,4 +796,5 @@ html, body {
 
 
 }
+
 
